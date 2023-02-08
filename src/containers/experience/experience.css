@@ -1,0 +1,110 @@
+.ppyatt__experience{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ppyatt__experience-container__heading{
+    margin-bottom: 3rem;
+}
+
+.ppyatt__experience-container__heading h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ppyatt__experience-container__heading h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--color-orange);
+}
+
+.ppyatt__experience-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ppyatt__experience-container-item{
+    background-color: #2F3E46;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.ppyatt__experience-container-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 2rem;
+    padding: 60px 0 60px 2rem;
+
+}
+
+.ppyatt__experience-container-item h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    color: #CCE3DE;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/**/
+
+@media screen and (max-width: 768px) and (min-width: 414px) {
+    .ppyatt__experience-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }
+    .ppyatt__experience-container-item{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px){
+
+    .ppyatt__experience{
+        margin-top: -20%;
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
+
+    .ppyatt__experience-container__heading{
+        margin-top: 15%;
+    }
+
+    .ppyatt__experience-container__heading h4{
+        font-size: 14px;
+    }
+
+    .ppyatt__experience-container__heading h2{
+        font-size: 26px;
+    }
+
+    .ppyatt__experience-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ppyatt__experience-container-item{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .ppyatt__experience-container-item h3{
+        font-size: 20px;
+    }
+
+    .ppyatt__experience-container-items{
+        grid-template-columns: 6rem 1rem;
+        padding-top: 8px;
+    }
+}

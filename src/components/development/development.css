@@ -1,0 +1,50 @@
+.ppyatt__development-container{
+    display: flex;
+    justify-content: left;
+    width: 200px;
+}
+
+.ppyatt__development-container__bar{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.ppyatt__development-container__bar div{
+    width: 25px;
+    height: 3px;
+    background-color: #CCE3DE;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+
+.ppyatt__development-container__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.ppyatt__development-container__text  h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.ppyatt__development-container__text  p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 414px){
+    .ppyatt__development-container__text  h4{
+        font-size: 16px;
+    }
+    
+    .ppyatt__development-container__text  p{
+        font-size: 12px;
+    }
+
+    .ppyatt__development-container__bar div{
+        width: 15px;
+    }
+}
