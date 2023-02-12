@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import './about.css';
 import aboutPat from '../../assets/ppabout.png';
 
@@ -10,20 +11,20 @@ const About = () => {
         <img src={aboutPat} alt="Pathricia Pyatt"/>
       </div>
 
-      <div className='ppyatt__about-container'>
+      <div className='ppyatt__about-container animate__fadeIn'>
         <div className='ppyatt__about-container__heading'>
           <h4>Get To Know Me</h4>
           <h2>About Me</h2>
         </div>
         <div className='ppyatt_about-container__title'>
           <div className='ppyatt_about-container__item'>
-            <h3>Experience</h3>
+            <a href='#experience'><h3>Experience</h3></a>
           </div>
           <div className='ppyatt_about-container__item'>
-            <h3>Services</h3>
+            <a href='#service' ><h3>Services</h3></a>
           </div>
           <div className='ppyatt_about-container__item'>
-            <h3>Projects</h3>
+            <a href='#portfolio'><h3>Projects</h3></a>
           </div>
         </div>
         <div className='ppyatt_about-container__content'>
@@ -36,7 +37,7 @@ const About = () => {
         </div>
 
         <div className='ppyatt_about-btn'>
-          <button>Lets Talk</button>
+          <a href='#contact'><button>Lets Talk</button></a>
         </div>
       </div>
       

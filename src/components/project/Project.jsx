@@ -6,7 +6,7 @@ const Project = ({imgUrl, title}) => {
     <div className='ppyatt__project-container'>
       <img src={imgUrl} alt="Project"/>
       <h3>{title}</h3>
-      <button>Github</button>    
+      <a href='https://github.com/pathriciaweww/january_ppyatt'><button>Github</button></a>    
     </div>
   )
 }

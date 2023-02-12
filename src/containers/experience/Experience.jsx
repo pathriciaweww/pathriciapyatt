@@ -1,11 +1,12 @@
 import React from 'react';
+import 'animate.css';
 import './experience.css';
 import {Development} from '../../components';
 
 const Experience = () => {
   return (
     <div className='ppyatt__experience section__padding'id='experience'>
-      <div className='ppyatt__experience-container__heading'>
+      <div className='ppyatt__experience-container__heading animate__fadeInDown'>
         <h4>What Skills I Have</h4>
         <h2>My Experience</h2>
       </div>

@@ -12,6 +12,11 @@
     flex-direction: column;
 }
 
+.ppyatt_about-container__item a{
+    text-decoration: none;
+    color: white;
+}
+
 .ppyatt__about-img img{
     mix-blend-mode: multiply;
     width: 340px;
@@ -114,4 +119,7 @@
     }
 }
 
+.animate__fadeIn{
+    animation-duration: 5s;
+}
 
